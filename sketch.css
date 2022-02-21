@@ -1,0 +1,39 @@
+h1
+{
+  text-align: center;
+}
+
+.container
+{ border:1px black solid;
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.row{
+  display: flex;
+
+flex-direction: row;
+flex-wrap: nowrap;
+
+}
+
+.size
+{
+  height: 100%;
+  width: 100%;
+}
+.buttons
+{
+text-align: center;
+padding-top: 20px;
+}
+
+.black
+{
+  background-color: black;
+}
